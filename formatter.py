@@ -12,6 +12,7 @@ def format_code(content, language='python'):
 
 def main():
     try:
+    try:
     parser = argparse.ArgumentParser(description='Code Formatter Pro - Universal formatter')
     parser.add_argument('file', help='File to format')
     parser.add_argument('-l', '--language', default='python')
